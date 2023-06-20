@@ -38,6 +38,10 @@ CREATE TABLE empleados (
 
 )
 
+ALTER TABLE empleados
+add SubRol VARCHAR(30),
+CONSTRAINT CK_empleados_SubRol CHECK (SubRol in ('Jefe Departamento', 'Coordinador', 'Docente'))
+
+
 /*CK_empleados_Rol evalua que el rol a ingresar sean uno de esos dos
-Tambien se pueden agregar Jefe de deparamento y Coordinador como parte de los roles o crear 
-tablas aparte para ellas*/
+CK_empleados_SubRol evalua si a su vez es Jefe de departamento, coordinador o docente sin mas*/
