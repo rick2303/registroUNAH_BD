@@ -41,7 +41,14 @@ CREATE TABLE empleados (
 
 )
 
+ALTER TABLE empleados
+ADD CONSTRAINT CK_empleados_dni UNIQUE(DNI);
+
+ALTER TABLE estudiantes
+ADD CONSTRAINT CK_estudiantes_dni UNIQUE(DNI);
 
 /*CK_empleados_Rol evalua que el rol a ingresar sean uno de esos dos
 CK_empleados_SubRol evalua si a su vez es Jefe de departamento, coordinador o docente sin mas*/
+
+
 
