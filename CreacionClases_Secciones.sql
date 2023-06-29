@@ -12,6 +12,7 @@ create table secciones(
     Aula VARCHAR(30),
     CantidadAlumnos int,
     HI VARCHAR(20),
+    Seccion int,
     HF VARCHAR(20),
     Periodo VARCHAR(10) not null,
     Fecha DATE,
@@ -21,5 +22,3 @@ create table secciones(
     CONSTRAINT FK_secciones_clases_id FOREIGN KEY (IdClase) REFERENCES clases(IdClase) on DELETE CASCADE,
     CONSTRAINT CK_secciones_periodo CHECK(Periodo in ('1PAC', '2PAC', '3PAC'))
 )
-
-
