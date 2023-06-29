@@ -2,8 +2,23 @@ insert into empleados (
     DNI, Nombre,Apellido, NumeroTelefono, CorreoInstitucional, CorreoPersonal,Contrasena,FechaNacimiento,
     FechaContratacion, Carrera, Direccion, Foto, CentroRegional, Rol, SubRol
 ) VALUES (
+    '1807198909001', 'Julian Andres', 'Castro Alvarez', '95344202', 'jucastro89@unah.edu.hn', 'jalvarez3022@gmail.com',
+    'JulianAl75', '1989-06-23', GETDATE(), null, 'Col. Hato', 'foto5.jpg', 'CU', 'ADMIN', null
+)
+insert into empleados (
+    DNI, Nombre,Apellido, NumeroTelefono, CorreoInstitucional, CorreoPersonal,Contrasena,FechaNacimiento,
+    FechaContratacion, Carrera, Direccion, Foto, CentroRegional, Rol, SubRol
+) VALUES (
     '1807195909001', 'Carlos Miguel', 'Rivera Martinez', '95321202', 'miguelitomartinez@unah.edu.hn', 'miguelitodelcarmen99ma@gmail.com',
     'rauito23', '1959-06-23', GETDATE(), 'INGENIERIA ELECTRICA', 'Col. Sitrabarimasa', 'foto.jpg', 'TEC-AGUAN', 'DOCENTE', 'DOCENTE'
+)
+
+insert into empleados (
+    DNI, Nombre,Apellido, NumeroTelefono, CorreoInstitucional, CorreoPersonal,Contrasena,FechaNacimiento,
+    FechaContratacion, Carrera, Direccion, Foto, CentroRegional, Rol, SubRol
+) VALUES (
+    '1808199929001', 'Samuel Joseph', 'Mendez Lozano', '95329302', 'samuelito99@unah.edu.hn', 'sammendez99@gmail.com',
+    'sammendezjoseph01', '2019-06-23', GETDATE(), 'FISICA', 'Col. Sitrabarimasa', 'foto.jpg', 'CU', 'DOCENTE', 'DOCENTE'
 )
 
 insert into empleados (
@@ -30,13 +45,8 @@ insert into empleados (
     'robertito72', '1990-06-23', GETDATE(), 'INGENIERIA INDUSTRIAL', 'Col. san miguel', 'foto3.jpg', 'VS', 'DOCENTE', 'COORDINADOR'
 )
 
-insert into empleados (
-    DNI, Nombre,Apellido, NumeroTelefono, CorreoInstitucional, CorreoPersonal,Contrasena,FechaNacimiento,
-    FechaContratacion, Carrera, Direccion, Foto, CentroRegional, Rol, SubRol
-) VALUES (
-    '1807198909001', 'Julian Andres', 'Castro Alvarez', '95344202', 'jucastro89@unah.edu.hn', 'jalvarez3022@gmail.com',
-    'JulianAl75', '1989-06-23', GETDATE(), null, 'Col. Hato', 'foto5.jpg', 'CU', 'ADMIN', null
-)
 
-select * from empleados
+select * from empleados 
+
+
 
