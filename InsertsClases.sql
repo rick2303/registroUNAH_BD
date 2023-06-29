@@ -1,3 +1,4 @@
+
 insert into clases values(
     'IS-210', 'Programacion II', 'MM-314', 4
 ), (
@@ -14,17 +15,18 @@ insert into clases values(
 insert into secciones (
     IdClase, Edificio, Aula, CantidadAlumnos, HI, HF, Periodo, Fecha, IdDocente, Obs
 ) values(
-    'IS-210', 'B2', '203', 20, '0900', '1000', '1PAC',  '2020-01-23', 1, null
+    'IS-210', 'B2', '203', 20, '0900', '1000', '1PAC',  '2020-01-23', 15033, null
 ), (
-    'MM-110', 'F1', '307', 40, '1100', '1200', '1PAC', '2021-01-15', 11, null
+    'MM-110', 'F1', '307', 40, '1100', '1200', '1PAC', '2021-01-15', 15011, null
 ), (
-    'IS-110', 'B2', '203', 20, '0900', '1000', '2PAC', '2021-05-15', 3, null
+    'IS-110', 'B2', '203', 20, '0900', '1000', '2PAC', '2021-05-15', 15044, null
 ), (
-    'MM-111', 'F1', '308', 40, '0800', '0900', '3PAC', '2020-09-15', 11, null
+    'MM-111', 'F1', '308', 40, '0800', '0900', '3PAC', '2020-09-15', 15055, null
 ), (
-    'SC-101', 'D1', '203', 30, '1200', '1300', '3PAC', '2022-09-17', 9,null
+    'SC-101', 'D1', '203', 30, '1200', '1300', '3PAC', '2022-09-17', 15022, null
 )
 
-select * from empleados
+select NumEmpleado, Carrera, rol, SubRol from empleados
 
 select * from secciones
+
