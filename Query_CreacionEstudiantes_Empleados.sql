@@ -19,7 +19,7 @@ CREATE TABLE estudiantes (
 )
 
 CREATE TABLE empleados (
-    NumEmpleado int IDENTITY(1,1) primary key,
+    NumEmpleado int IDENTITY(15000,11) primary key,
     DNI VARCHAR(50) not null,
     Nombre VARCHAR (50) not null,
     Apellido VARCHAR(50) not null,
@@ -49,6 +49,4 @@ ADD CONSTRAINT CK_estudiantes_dni UNIQUE(DNI);
 
 /*CK_empleados_Rol evalua que el rol a ingresar sean uno de esos dos
 CK_empleados_SubRol evalua si a su vez es Jefe de departamento, coordinador o docente sin mas*/
-
-
 
