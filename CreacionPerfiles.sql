@@ -18,12 +18,11 @@ create table perfil_empleados(
 SELECT * from perfil_empleados
 */
 insert into perfil_empleados values(
-    2, 'abigailfp.jpg', null , 'videopresentacion.mp4', 'Soy docente desde hace 15 años con expertis en...'
+    15022, 'abigailfp.jpg', null , 'videopresentacion.mp4', 'Soy docente desde hace 15 años con expertis en...'
 ), (
-    1, 'carlosmiguel.jpg', null , 'videopresentacionc.mp4', 'Soy docente desde hace 7 años con expertis en...'
+    15011, 'carlosmiguel.jpg', null , 'videopresentacionc.mp4', 'Soy docente desde hace 7 años con expertis en...'
 ), (
-    3, 'abigaeas.jpg', null , 'videopresentacionnestor.mp4', 'Soy docente y jefe de dep con expertis en...'
+    15033, 'abigaeas.jpg', null , 'videopresentacionnestor.mp4', 'Soy docente y jefe de dep con expertis en...'
 ), (
-    4, 'robgoto.jpg', null , 'videopresentacioncarlos.mp4', 'Soy docente y coordinador hace 3 años con expertis en...'
+    15044, 'robgoto.jpg', null , 'videopresentacioncarlos.mp4', 'Soy docente y coordinador hace 3 años con expertis en...'
 )
-
