@@ -2,8 +2,11 @@ create table clases(
     IdClase VARCHAR(20) primary key,
     Nombre  VARCHAR(100) not NULL,
     Requisitos VARCHAR(20),
-    UV INT not NULL
+    UV INT not NULL,
+    Departamento VARCHAR(200)
 )
+
+
 
 create table secciones(
     IdSeccion int identity(1, 1) primary key,
