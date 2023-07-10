@@ -45,6 +45,8 @@ CREATE TABLE empleados (
 )
 
 ALTER TABLE empleados
+add Estado VARCHAR(20) default 'Activo',
+add CONSTRAINT CK_empleados_estado CHECK (Estado in ('Activo', 'Inactivo'))
 ADD CONSTRAINT CK_empleados_dni UNIQUE(DNI);
 
 
