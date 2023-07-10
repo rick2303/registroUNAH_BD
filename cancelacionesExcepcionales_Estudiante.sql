@@ -7,8 +7,13 @@ CREATE table registro_cancelaciones_excepcionales(
     Año DATE,
     Periodo VARCHAR(5),
     Estado VARCHAR(20),
-    Descripcion VARCHAR(200),
+    Descripcion VARCHAR(1500),
     Documento VARCHAR(200),
-    NumCuenta VARCHAR(20),
-    CONSTRAINT CK_cancelacionexcepcionales_periodo CHECK(Periodo in ('1PAC', '2PAC', '3PAC'))
+    NumCuenta VARCHAR(20)
+    /*CONSTRAINT CK_cancelacionexcepcionales_periodo CHECK(Periodo in ('1PAC', '2PAC', '3PAC'))*/
 )
+
+/*
+ALTER TABLE registro_cancelaciones_excepcionales
+ALTER COLUMN descripcion VARCHAR(1500);
+*/
