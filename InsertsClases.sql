@@ -114,6 +114,54 @@ insert into clases values(
     'IS-601', 'Base de datos II', 'IS-501', 4, 'Ingenieria en sistemas'
 )
 
+insert into clases values (
+    'IS-603', 'Arquitectura de computadoras', 'IS-511', 4, 'Ingenieria en sistemas'
+), (
+    'IS-513', 'Lenguajes de programación', 'IS-410', 4, 'Ingenieria en sistemas'
+), (
+    'IS-611', 'Redes de datos II', 'IS-511', 4, 'Ingenieria en sistemas'
+), (
+    'IS-711', 'Diseño digital', 'IS-603', 4, 'Ingenieria en sistemas'
+), (
+    'IS-602', 'Sistemas de información', 'IS-513', 4, 'Ingenieria en sistemas'
+), (
+    'IS-811', 'Seguridad informática', 'IS-711/IS-512', 4, 'Ingenieria en sistemas'
+), (
+    'IS-720', 'Administración I', 'MM-420', 4, 'Ingenieria en sistemas'
+), (
+    'IS-721', 'Contabilidad I', 'IS-720', 4, 'Ingenieria en sistemas'
+), (
+    'IS-702', 'Análisis y diseño de sistemas', 'IS-602', 4, 'Ingenieria en sistemas'
+), (
+    'IS-903', 'Auditoria informática', 'IS-811', 3, 'Ingenieria en sistemas'
+),(
+    'IS-701', 'Inteligencia artificial', 'Is-601/IS-602', 4, 'Ingenieria en sistemas'
+), (
+    'IS-802', 'Ingenieria del software', 'IS-702', 4, 'Ingenieria en sistemas'
+), (
+    'IS-820', 'Finanzas administrativas', 'IS-721', 4, 'Ingenieria en sistemas'
+), (
+    'IS-902', 'Industria del software', 'IS-802', 4, 'Ingenieria en sistemas'
+), (
+    'IS-904', 'Gerencia informática', 'IS-811', 4, 'Ingenieria en sistemas'
+), (
+    'IS-906', 'Topicos Especiales y Avanzados', 'IS-904', 5, 'Ingenieria en sistemas'
+), (
+    'IS-905', 'Economía digital', 'IS-820', 5, 'Ingenieria en sistemas'
+), (
+    'IS-115', 'Seminario de investigacion', 'IS-802', 3, 'Ingenieria en sistemas'
+), (
+    'IS-910', 'Teoria de la simulación', 'IS-904', 3, 'Ingenieria en sistemas'
+), (
+    'IS-911', 'Microprocesadores', 'IS-603', 3, 'Ingenieria en sistemas'
+),(
+    'IS-914', 'Liderazgo para el cambio', 'IS-820', 3, 'Ingenieria en sistemas'
+), (
+    'IS-912', 'Sistemas expertos', 'IS-701', 3, 'Ingenieria en sistemas'
+), (
+    'IS-913', 'Diseño de compiladores', 'IS-603', 3, 'Ingenieria en sistemas'
+)
+
 /*Clases de Plan de clases de ing industrial*/
 insert into clases values(
     'II-111', 'Introduccion a la ing industrial', 'Ninguno', 2, 'Ingenieria industrial'
@@ -136,6 +184,46 @@ insert into clases values(
 ), (
     'II-313', 'Contabilidad industrial I', 'II-222/II-231', 4, 'Ingenieria industrial'
 )
+
+insert into clases values(
+    'II-323', 'Contabilidad Industrail II', 'II-313', 4, 'Ingenieria industrial'
+),(
+    'II-332', 'Proceso de Fabricación I', 'IM-328', 3, 'Ingenieria industrial'
+), (
+    'DQ-105', 'Dibujo Técnico Industrial', 'DQ-101', 2,  'Ingenieria Civil'
+), (
+    'II-333', 'Investigación de Operaciones II', 'II-231', 4, 'Ingenieria industrial'
+)
+
+
+insert into clases values(
+    'II-413', 'Ingenieria de Sistemas', 'II-333', 3, 'Ingenieria industrial'
+), (
+    'II-415', 'Procesos de Fabricación II', 'II-332', 3, 'Ingenieria industrial'
+),(
+    'II-414', 'Ing. de Producción Industrial I', 'II-334', 4, 'Ingenieria industrial'
+),(
+    'II-331', 'Relaciones Industriales', 'DD-740', 3, 'Ingenieria industrial'
+), (
+    'II-335', 'Finanzas', 'II-323', 4, 'Ingenieria industrial'
+),(
+    'II-412', 'Ing. Econónomica', 'II-335', 4, 'Ingenieria industrial'
+),(
+    'II-424', 'Mercadotecnia Industrial', 'II-412', 3, 'Ingenieria industrial'
+), (
+    'II-423', 'Ing. Ambiental Industrial', 'II-414', 4, 'Ingenieria industrial'
+),(
+    'II-425', 'Ing. De Producción Industrial II', 'II-334', 3, 'Ingenieria industrial'
+),(
+    'II-422', 'Seguridad e Higiene Industrial (Opt)', 'PS-940', 3, 'Ingenieria industrial'
+), (
+    'II-432', 'Preparación y Evaluación de Proyecto', 'II-424/II-423', 4, 'Ingenieria industrial'
+),(
+    'II-433', 'Control de Calidad', 'II-425', 4, 'Ingenieria industrial'
+),(
+    'II-434', 'Ingenieria de Plantas', 'II-422', 3, 'Ingenieria industrial'
+)
+
 
 /*Clases de Plan de clases de ing electrica*/
 insert into clases values(
