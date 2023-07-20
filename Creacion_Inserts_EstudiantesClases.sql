@@ -36,7 +36,8 @@ insert into  registro_estudiante_clases(
     '20235015435', 5, 100, '2022-09-17', 'APR'
 )
 
-
+select * from registro_estudiante_clases re 
+inner JOIN 
 
 /*drop table registro_estudiante_clases*/
 /*select * from registro_estudiante_clases*/
@@ -106,3 +107,53 @@ insert into  registro_estudiante_clases(
 select contrasena from estudiantes where numcuenta = '20182001940'
 
 select numEmpleado, contrasena from empleados
+
+insert into  registro_estudiante_clases(
+    IdEstudiante, IdSeccion, Nota, Fecha, EstadoClase
+) values (
+    '20182001940', 32, 92, '2019-09-12', 'APR'
+), (
+    '20182001940', 33, 83, '2019-09-12', 'APR'
+),(
+    '20182001940', 34, 67, '2021-09-18', 'APR'
+),(
+    '20182001940', 35, 87, '2022-02-12', 'APR'
+),(
+    '20182001940', 36, 77, '2022-05-18', 'APR'
+),(
+    '20182001940', 37, 81, '2022-05-18', 'APR'
+),(
+    '20182001940', 38, 77, '2022-09-12', 'APR'
+),(
+    '20182001940', 39, 83, '2022-09-12', 'APR'
+),(
+    '20182001940', 40, 79, '2022-09-12', 'APR'
+),(
+    '20182001940', 41, 90, '2022-09-12', 'APR'
+),(
+    '20182001940', 42, 83, '2023-02-12', 'APR'
+),(
+    '20182001940', 43, 79, '2023-02-12', 'APR'
+),(
+    '20182001940', 44, 90, '2023-02-12', 'APR'
+)
+
+/*Para nicki 20182001940*/
+
+select * from secciones where idclase like 'II%' order by idseccion desc
+
+insert into  registro_estudiante_clases(
+    IdEstudiante, IdSeccion, Nota, Fecha, EstadoClase
+) values (
+    '20182001940', 21, null, getdate(), null
+), (
+    '20182001940', 20, null, getdate(), null
+), (
+    '20182001940', 180, null, getdate(), NULL
+), (
+    '20182001940', 181, null,  getdate(), null
+),(
+    '20182001940', 182, null,  getdate(), null
+),(
+    '20182001940', 184, null,  getdate(), null
+)
